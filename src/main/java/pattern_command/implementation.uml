@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-306.0" y="-241.0">pattern_command.LightOffCommand</node>
+    <node x="-102.0" y="-241.0">pattern_command.NoCommand</node>
+    <node x="-26.106428571428637" y="-357.0">pattern_command.Command</node>
+    <node x="-391.40523809523813" y="-357.0">pattern_command.Light</node>
+    <node x="-508.0" y="-241.0">pattern_command.LightOnCommand</node>
+    <node x="-30.245952380952417" y="-155.0">pattern_command.RemoteControl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern_command.LightOffCommand" target="pattern_command.Light">
+      <point x="0.0" y="-18.0" />
+      <point x="-214.0" y="-301.0" />
+      <point x="-309.15523809523813" y="-301.0" />
+      <point x="35.25" y="18.0" />
+    </edge>
+    <edge source="pattern_command.LightOnCommand" target="pattern_command.Command">
+      <point x="60.666666666666686" y="-18.0" />
+      <point x="-356.3333333333333" y="-281.0" />
+      <point x="-16.820714285714303" y="-281.0" />
+      <point x="-55.71428571428572" y="18.0" />
+    </edge>
+    <edge source="pattern_command.RemoteControl" target="pattern_command.NoCommand">
+      <point x="-64.80000000000001" y="-18.0" />
+      <point x="-14.045952380952428" y="-175.0" />
+      <point x="-27.0" y="-175.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="pattern_command.LightOnCommand" target="pattern_command.Light">
+      <point x="-60.66666666666666" y="-18.0" />
+      <point x="-477.66666666666663" y="-301.0" />
+      <point x="-379.65523809523813" y="-301.0" />
+      <point x="-35.25" y="18.0" />
+    </edge>
+    <edge source="pattern_command.NoCommand" target="pattern_command.Command">
+      <point x="0.0" y="-18.0" />
+      <point x="-27.0" y="-261.0" />
+      <point x="20.322142857142808" y="-261.0" />
+      <point x="-18.571428571428555" y="18.0" />
+    </edge>
+    <edge source="pattern_command.LightOffCommand" target="pattern_command.Command">
+      <point x="61.33333333333334" y="-18.0" />
+      <point x="-152.66666666666669" y="-271.0" />
+      <point x="1.7507142857142526" y="-271.0" />
+      <point x="-37.14285714285717" y="18.0" />
+    </edge>
+    <edge source="pattern_command.RemoteControl" target="pattern_command.Command">
+      <point x="0.0" y="-18.0" />
+      <point x="50.75404761904758" y="-175.0" />
+      <point x="69.5" y="-175.0" />
+      <point x="69.5" y="-271.0" />
+      <point x="57.46499999999992" y="-271.0" />
+      <point x="18.571428571428555" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-140.0" y="-185.0" />
+  <SelectedNodes>
+    <node>pattern_command.Command</node>
+    <node>pattern_command.Light</node>
+    <node>pattern_command.LightOnCommand</node>
+    <node>pattern_command.RemoteControl</node>
+    <node>pattern_command.LightOffCommand</node>
+    <node>pattern_command.NoCommand</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

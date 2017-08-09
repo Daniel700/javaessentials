@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="359.0" y="86.0">pattern_decorater.HouseBlend</node>
+    <node x="220.99999999999997" y="86.0">pattern_decorater.Espresso</node>
+    <node x="0.0" y="228.0">pattern_decorater.Whip</node>
+    <node x="366.35714285714283" y="0.0">pattern_decorater.Beverage</node>
+    <node x="0.0" y="86.0">pattern_decorater.CondimentDecorator</node>
+    <node x="422.29047619047617" y="172.0">pattern_decorater.Mocha</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pattern_decorater.HouseBlend" target="pattern_decorater.Beverage">
+      <point x="0.0" y="-18.0" />
+      <point x="429.5" y="66.0" />
+      <point x="427.85714285714283" y="66.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="pattern_decorater.Mocha" target="pattern_decorater.CondimentDecorator">
+      <point x="-35.33333333333334" y="-18.0" />
+      <point x="439.9571428571428" y="152.0" />
+      <point x="100.5" y="152.0" />
+      <point x="0.0" y="18.0" />
+    </edge>
+    <edge source="pattern_decorater.Whip" target="pattern_decorater.CondimentDecorator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pattern_decorater.Espresso" target="pattern_decorater.Beverage">
+      <point x="0.0" y="-18.0" />
+      <point x="280.0" y="66.0" />
+      <point x="403.2571428571428" y="66.0" />
+      <point x="-24.599999999999994" y="18.0" />
+    </edge>
+    <edge source="pattern_decorater.CondimentDecorator" target="pattern_decorater.Beverage">
+      <point x="0.0" y="-18.0" />
+      <point x="100.5" y="56.0" />
+      <point x="378.65714285714284" y="56.0" />
+      <point x="-49.19999999999999" y="18.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>pattern_decorater.Whip</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
