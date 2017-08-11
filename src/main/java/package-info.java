@@ -1,5 +1,6 @@
 /*
-Design Principles:
+
+DESIGN PRINCIPLES:
 
 - Favor composition over inheritance.
 
@@ -14,6 +15,33 @@ Design Principles:
     # No class should derive from a concrete class
     # No method should override an implemented method of any of its base classes
 
+- Principle of least knowledge - talk only to your immediate friends.
+    (Eine Klasse sollte nur auf eine begrenzte Anzahl an anderen Klassen verweisen bzw. benutzen (Composition)
+     -> sonst wird die Komplexität eines Systems zu sehr gesteigert)
 
+    [Example:
+        Without the principle:
+        public float getTemp() {
+            Thermometer thermometer = station.getThermometer();
+            return thermometer.getTemperature();
+        }
+
+        With the principle:
+        public float getTemp() {
+            return station.getTemperature();
+        }
+    ]
+
+------------------------------------------------------------------------------------------------------------------------
+
+PATTERN DEFINITIONS:
+
+    - Observer Pattern:     asd
+    - Decorater Pattern:    asd
+    - Factory Pattern:      asd
+    - Singleton Pattern:    asd
+    - Command Pattern:      asd
+    - Adapter Pattern:      asd
+    - Facade Pattern:       asd
 
 */
