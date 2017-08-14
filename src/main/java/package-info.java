@@ -32,16 +32,23 @@ DESIGN PRINCIPLES:
         }
     ]
 
+- The Hollywood Principle: Don't call us, we'll call you.
+    Low Level Components can participate in the computation but the high-level components controls when and how.
+    A low-level component never calls a high-level component directly.
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 PATTERN DEFINITIONS:
 
-    - Observer Pattern:     asd
-    - Decorater Pattern:    asd
-    - Factory Pattern:      asd
-    - Singleton Pattern:    asd
-    - Command Pattern:      asd
-    - Adapter Pattern:      asd
-    - Facade Pattern:       asd
+    - Strategy Pattern:             asd
+    - Observer Pattern:             asd
+    - Decorater Pattern:            asd
+    - Factory Pattern:              asd
+    - Singleton Pattern:            asd
+    - Command Pattern:              asd
+    - Adapter Pattern:              asd
+    - Facade Pattern:               asd
+    - Template Method Pattern:      asd
 
 */
