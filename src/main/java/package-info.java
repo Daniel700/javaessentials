@@ -1,10 +1,26 @@
 /*
 
-DESIGN PRINCIPLES:
+##############################
+        OO BASICS:
+##############################
 
-- Favor composition over inheritance.
+- Abstraction
+- Encapsulation
+- Polymorphism
+- Inheritance
 
-- Program to interfaces, not to implementations.
+------------------------------------------------------------------------------------------------------------------------
+
+##############################
+    OO DESIGN PRINCIPLES:
+##############################
+
+- Identify the aspects of your application that vary and separate them from what stays the same.
+    (We often try to take what varies in a system and encapsulate it.)
+
+- Program to interfaces (supertypes), not to implementations.
+
+- !!! Favor composition over inheritance. !!! (Advantage: Change behaviour at runtime)
 
 - Classes should be open for extension, but closed for modification (From Decorator Pattern).
 
@@ -39,7 +55,9 @@ DESIGN PRINCIPLES:
 
 ------------------------------------------------------------------------------------------------------------------------
 
-PATTERN DEFINITIONS:
+##############################
+    PATTERN DEFINITIONS:
+##############################
 
     - Strategy Pattern:             asd
     - Observer Pattern:             asd
