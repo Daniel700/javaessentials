@@ -52,6 +52,11 @@
     Low Level Components can participate in the computation but the high-level components controls when and how.
     A low-level component never calls a high-level component directly.
 
+- A class should have only one reason to change.
+    Every responsibility of a class is an area of potential change.
+    More than one responsibility means more than one area of change.
+    Each class should only have a single responsibility.
+
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -59,14 +64,27 @@
     PATTERN DEFINITIONS:
 ##############################
 
-    - Strategy Pattern:             asd
-    - Observer Pattern:             asd
-    - Decorater Pattern:            asd
-    - Factory Pattern:              asd
-    - Singleton Pattern:            asd
-    - Command Pattern:              asd
-    - Adapter Pattern:              asd
-    - Facade Pattern:               asd
-    - Template Method Pattern:      asd
+    - Strategy Pattern:                 asd
+    - Observer Pattern:                 asd
+    - Decorater Pattern:                asd
+    - Factory Pattern:                  asd
+    - Singleton Pattern:                asd
+    - Command Pattern:                  asd
+    - Adapter Pattern:                  asd
+    - Facade Pattern:                   asd
+    - Template Method Pattern:          asd
+    - Iterator and Composite Pattern:   asd
+    - State Pattern:                    a
+    - Proxy Pattern:                    a
+    # Bridge Pattern:                   a
+    # Builder Pattern:                  a
+    # Chain of Responsibility Pattern:  a
+    # Flyweight Pattern:                a
+    # Interpreter Pattern:              a
+    # Mediator Pattern:                 a
+    # Memento Pattern:                  a
+    # Prototype Pattern:                a
+    # Visitor Pattern:                  a
+
 
 */
