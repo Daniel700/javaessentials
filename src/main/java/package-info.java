@@ -5,9 +5,20 @@
 ##############################
 
 - Abstraction
+    -> Abstraction is a process of exposing essential features of an entity by hiding the other irrelevant details.
+    Abstraction mainly reduces complexity and increases efficiency.
+
 - Encapsulation
+    -> Encapsulation is the process of putting data and the operations (functions)
+    that can be performed on that data into a single container called class.
+
 - Polymorphism
+    -> It is a feature, which lets us create functions with same name but different arguments,
+    which will perform differently.
+
 - Inheritance
+    -> Inheritance is a way to reuse code of existing objects, or to establish a subtype from an existing object,
+    or both, depending upon programming language support.
 
 ------------------------------------------------------------------------------------------------------------------------
 
