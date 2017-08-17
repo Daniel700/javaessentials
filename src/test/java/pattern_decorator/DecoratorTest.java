@@ -1,4 +1,4 @@
-package pattern_decorater;
+package pattern_decorator;
 
 import org.junit.After;
 import org.junit.Before;

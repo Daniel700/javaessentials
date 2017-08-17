@@ -1,4 +1,4 @@
-package pattern_decorater;
+package pattern_decorator;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

@@ -66,7 +66,7 @@
 
     - Strategy Pattern:                 asd
     - Observer Pattern:                 asd
-    - Decorater Pattern:                asd
+    - Decorator Pattern:                asd
     - Factory Pattern:                  asd
     - Singleton Pattern:                asd
     - Command Pattern:                  asd
@@ -74,7 +74,7 @@
     - Facade Pattern:                   asd
     - Template Method Pattern:          asd
     - Iterator and Composite Pattern:   asd
-    - State Pattern:                    a
+    - State Pattern:                    asd
     - Proxy Pattern:                    a
     # Bridge Pattern:                   a
     # Builder Pattern:                  a

@@ -1,25 +1,24 @@
-package pattern_decorater;
+package pattern_decorator;
 
 /**
  * concrete decorator
  */
-public class Whip extends CondimentDecorator {
+public class Mocha extends CondimentDecorator {
 
     Beverage beverage;
 
-    public Whip(Beverage beverage) {
+    public Mocha(Beverage beverage){
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ", Whip";
+        return beverage.getDescription() + ", Mocha";
     }
 
     @Override
     public double cost() {
-        return 0.10 + beverage.cost();
+        return 0.20 + beverage.cost();
     }
-
 
 }
