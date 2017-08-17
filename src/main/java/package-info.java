@@ -64,18 +64,20 @@
     PATTERN DEFINITIONS:
 ##############################
 
-    - Strategy Pattern:                 asd
-    - Observer Pattern:                 asd
-    - Decorator Pattern:                asd
-    - Factory Pattern:                  asd
-    - Singleton Pattern:                asd
-    - Command Pattern:                  asd
-    - Adapter Pattern:                  asd
-    - Facade Pattern:                   asd
-    - Template Method Pattern:          asd
-    - Iterator and Composite Pattern:   asd
-    - State Pattern:                    asd
-    - Proxy Pattern:                    a
+    - Strategy Pattern:                 Encapsulates interchangeable behaviours and uses delegation to decide which one to use
+    - Observer Pattern:                 Allows objects to be notified when state changes
+    - Decorator Pattern:                Wraps an object to provide new behaviour
+    - Factory Method Pattern:           Subclasses decide which concrete classes to create
+    - Abstract Factory Pattern:         Allows a client to create families of objects without specifying their concrete classes
+    - Singleton Pattern:                Ensures one and only object is created
+    - Command Pattern:                  Encapsulates a request as an object
+    - Adapter Pattern:                  Wraps an object and provides a different interface to it
+    - Facade Pattern:                   Simplifies the interface of a set of classes
+    - Template Method Pattern:          Subclasses decide how to implement steps in an algorithm
+    - Iterator:                         Provides a way to traverse a collection of objects without exposing its implementation
+    - Composite Pattern:                Clients treat collections of objects and individual objects uniformly
+    - State Pattern:                    Encapsulates state-based behaviours and uses delegation to switch between behaviours
+    - Proxy Pattern:                    Wraps an object to control access to it
     # Bridge Pattern:                   a
     # Builder Pattern:                  a
     # Chain of Responsibility Pattern:  a
