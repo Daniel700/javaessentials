@@ -89,7 +89,7 @@
     - Composite Pattern:                Clients treat collections of objects and individual objects uniformly
     - State Pattern:                    Encapsulates state-based behaviours and uses delegation to switch between behaviours
     - Proxy Pattern:                    Wraps an object to control access to it
-    # Bridge Pattern:                   a
+    # Bridge Pattern:                   Decouple an abstraction from its implementation allowing the two to vary independently
     # Builder Pattern:                  Constructs complex objects by separating construction and representation
     # Chain of Responsibility Pattern:  a
     # Flyweight Pattern:                Reduces the cost of creating and manipulating a large number of similar objects.
