@@ -91,11 +91,11 @@
     - Proxy Pattern:                    Wraps an object to control access to it
     # Bridge Pattern:                   Decouple an abstraction from its implementation allowing the two to vary independently
     # Builder Pattern:                  Constructs complex objects by separating construction and representation
-    # Chain of Responsibility Pattern:  a
-    # Flyweight Pattern:                Reduces the cost of creating and manipulating a large number of similar objects.
+    # Chain of Responsibility Pattern:  Gives more than one object an opportunity to handle a request by linking receiving objects together
+    # Flyweight Pattern:                Reduces the cost of creating and manipulating a large number of similar objects
     # Interpreter Pattern:              a
     # Mediator Pattern:                 a
-    # Memento Pattern:                  a
+    # Memento Pattern:                  Captures and externalizes an object's internal state so that it can be restored later, all without violating encapsulation
     # Prototype Pattern:                a
     # Visitor Pattern:                  a
 
