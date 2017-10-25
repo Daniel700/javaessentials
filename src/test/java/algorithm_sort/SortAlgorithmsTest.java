@@ -1,5 +1,6 @@
 package algorithm_sort;
 
+import algortihm_sort.BubbleSort;
 import algortihm_sort.InsertionSort;
 import algortihm_sort.SelectionSort;
 import org.junit.After;
@@ -48,4 +49,18 @@ public class SortAlgorithmsTest {
         Assert.assertArrayEquals(sortedArray, SelectionSort.sort(unsortedArray));
 
     }
+
+    @Test
+    public void testBubbleSort() throws Exception {
+
+        System.out.println("Bubble Sort");
+        System.out.println("Original Array: " + Arrays.toString(unsortedArray));
+        System.out.println("Sorted Array: " + Arrays.toString(BubbleSort.sort(unsortedArray)));
+        System.out.println("");
+
+        Assert.assertArrayEquals(sortedArray, BubbleSort.sort(unsortedArray));
+
+    }
+
+
 }
